@@ -1,0 +1,58 @@
+/*@noaMetzger*/
+/*mixin*/
+@mixin fontStyle($font){
+   font-size: medium;
+   font-family:font;
+   background-color: rgb(252, 239, 239);
+   color: rgb(127, 119, 119);
+
+}
+body{
+    @include fontStyle('Arial, Helvetica, sans-serif');
+    ul{
+        li{ 
+            a{
+                color: rgb(58, 58, 58);
+                text-decoration: none;
+             }
+            input{
+                border-radius: 30%;
+                &:hover{
+                 opacity: 0.5;
+                 }
+            }
+        }
+     }
+}
+/*part2*/
+.text-success{
+    color:  rgb(63, 175, 63);
+    background-color: rgb(63, 175, 63);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    cursor: pointer;
+}
+.text-danger{
+    color:  rgb(200, 21, 21);
+    background-color:  rgb(200, 21, 21);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    cursor: pointer;
+}
+.text-info{
+    color:  rgb(202, 215, 14);
+    background-color: rgb(202, 215, 14);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.text-warning{
+    color:  rgb(229, 138, 11);
+    background-color: rgb(229, 138, 11);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    cursor:help; 
+}
