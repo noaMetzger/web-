@@ -1,0 +1,27 @@
+@mixin fontStyle($font){
+    font-size: medium;
+    font-family:font;
+    background-color: rgb(252, 239, 239);
+    color: rgb(127, 119, 119);
+ 
+ }
+ 
+ @mixin styleClass($color1,$weight,$font,$size,$cursor){
+    color:$color1;
+    font-weight:$weight;
+    font-family: $font;
+    font-size:$size;
+    background-color: lighten($color1,50%);
+    cursor: $cursor;
+}
+@mixin column($col) {
+    width: (100% / 12) * $col;
+    background-color:rgb(218, 102, 102);
+    display: flex;
+    justify-content: center;
+    height:100px;
+    margin: 15px;
+  /*  font-family:$fontAll ;
+    font-size: $sizefont*3;*/
+ }
+ 

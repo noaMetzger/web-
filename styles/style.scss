@@ -1,12 +1,6 @@
 /*@noaMetzger*/
-/*mixin*/
-@mixin fontStyle($font){
-   font-size: medium;
-   font-family:font;
-   background-color: rgb(252, 239, 239);
-   color: rgb(127, 119, 119);
-
-}
+@import "./_variable";
+@import "./_colum";
 body{
     @include fontStyle('Arial, Helvetica, sans-serif');
     ul{
@@ -24,35 +18,21 @@ body{
         }
      }
 }
+
 /*part2*/
 .text-success{
-    color:  rgb(63, 175, 63);
-    background-color: rgb(63, 175, 63);
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: smaller;
-    cursor: pointer;
-}
-.text-danger{
-    color:  rgb(200, 21, 21);
-    background-color:  rgb(200, 21, 21);
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: xx-large;
-    cursor: pointer;
-}
-.text-info{
-    color:  rgb(202, 215, 14);
-    background-color: rgb(202, 215, 14);
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-}
-.text-warning{
-    color:  rgb(229, 138, 11);
-    background-color: rgb(229, 138, 11);
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: x-small;
-    cursor:help; 
-}
+    @include styleClass(rgb(131, 209, 28),500,'Courier New',20px, pointer);
+    }
+    
+    .text-danger{
+        @include styleClass(rgb(249, 49, 14),100,'Segoe UI',30px, pointer);
+    }
+    
+    .text-warning{
+        @include styleClass(rgb(217, 210, 7),700,'Lucida Sans',40px, default);
+        
+    }
+    .text-info{
+        @include styleClass(rgb(223, 127, 10),900,'Segoe UI',50px,grab);    
+        cursor:grab;
+    }

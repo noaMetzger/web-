@@ -1,5 +1,136 @@
 /*@noaMetzger*/
-/*mixin*/
+.column-1 {
+  width: 8.3333333333%;
+  background-color: rgb(218, 102, 102);
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin: 15px;
+  /*  font-family:$fontAll ;
+    font-size: $sizefont*3;*/
+}
+
+.column-2 {
+  width: 16.6666666667%;
+  background-color: rgb(218, 102, 102);
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin: 15px;
+  /*  font-family:$fontAll ;
+    font-size: $sizefont*3;*/
+}
+
+.column-3 {
+  width: 25%;
+  background-color: rgb(218, 102, 102);
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin: 15px;
+  /*  font-family:$fontAll ;
+    font-size: $sizefont*3;*/
+}
+
+.column-4 {
+  width: 33.3333333333%;
+  background-color: rgb(218, 102, 102);
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin: 15px;
+  /*  font-family:$fontAll ;
+    font-size: $sizefont*3;*/
+}
+
+.column-5 {
+  width: 41.6666666667%;
+  background-color: rgb(218, 102, 102);
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin: 15px;
+  /*  font-family:$fontAll ;
+    font-size: $sizefont*3;*/
+}
+
+.column-6 {
+  width: 50%;
+  background-color: rgb(218, 102, 102);
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin: 15px;
+  /*  font-family:$fontAll ;
+    font-size: $sizefont*3;*/
+}
+
+.column-7 {
+  width: 58.3333333333%;
+  background-color: rgb(218, 102, 102);
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin: 15px;
+  /*  font-family:$fontAll ;
+    font-size: $sizefont*3;*/
+}
+
+.column-8 {
+  width: 66.6666666667%;
+  background-color: rgb(218, 102, 102);
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin: 15px;
+  /*  font-family:$fontAll ;
+    font-size: $sizefont*3;*/
+}
+
+.column-9 {
+  width: 75%;
+  background-color: rgb(218, 102, 102);
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin: 15px;
+  /*  font-family:$fontAll ;
+    font-size: $sizefont*3;*/
+}
+
+.column-10 {
+  width: 83.3333333333%;
+  background-color: rgb(218, 102, 102);
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin: 15px;
+  /*  font-family:$fontAll ;
+    font-size: $sizefont*3;*/
+}
+
+.column-11 {
+  width: 91.6666666667%;
+  background-color: rgb(218, 102, 102);
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin: 15px;
+  /*  font-family:$fontAll ;
+    font-size: $sizefont*3;*/
+}
+
+.column-12 {
+  width: 100%;
+  background-color: rgb(218, 102, 102);
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin: 15px;
+  /*  font-family:$fontAll ;
+    font-size: $sizefont*3;*/
+}
+
 body {
   font-size: medium;
   font-family: font;
@@ -19,36 +150,38 @@ body ul li input:hover {
 
 /*part2*/
 .text-success {
-  color: rgb(63, 175, 63);
-  background-color: rgb(63, 175, 63);
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: smaller;
+  color: rgb(131, 209, 28);
+  font-weight: 500;
+  font-family: "Courier New";
+  font-size: 20px;
+  background-color: #f7fdef;
   cursor: pointer;
 }
 
 .text-danger {
-  color: rgb(200, 21, 21);
-  background-color: rgb(200, 21, 21);
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: xx-large;
+  color: rgb(249, 49, 14);
+  font-weight: 100;
+  font-family: "Segoe UI";
+  font-size: 30px;
+  background-color: white;
   cursor: pointer;
 }
 
-.text-info {
-  color: rgb(202, 215, 14);
-  background-color: rgb(202, 215, 14);
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: medium;
+.text-warning {
+  color: rgb(217, 210, 7);
+  font-weight: 700;
+  font-family: "Lucida Sans";
+  font-size: 40px;
+  background-color: #fefde1;
+  cursor: default;
 }
 
-.text-warning {
-  color: rgb(229, 138, 11);
-  background-color: rgb(229, 138, 11);
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: x-small;
-  cursor: help;
+.text-info {
+  color: rgb(223, 127, 10);
+  font-weight: 900;
+  font-family: "Segoe UI";
+  font-size: 50px;
+  background-color: #fef5ea;
+  cursor: grab;
+  cursor: grab;
 }/*# sourceMappingURL=style.css.map */
